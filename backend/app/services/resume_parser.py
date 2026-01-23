@@ -2,8 +2,8 @@
 Resume/CV parsing service using Gemini.
 """
 import logging
-from app.models import Resume, WorkExperienceItem, EducationItem, ProjectItem
-from app.services.gemini_client import get_gemini_client
+from ..models import Resume, WorkExperienceItem, EducationItem, ProjectItem
+from .gemini_client import get_gemini_client
 from typing import Dict, Any
 
 logger = logging.getLogger(__name__)

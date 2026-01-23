@@ -5,8 +5,8 @@ import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
-from app.config import get_settings
-from app.routes import health, interview
+from .config import get_settings
+from .routes import health, interview, kpi
 
 # Configure logging
 logging.basicConfig(
@@ -52,6 +52,7 @@ app.add_middleware(
 # Include routers
 app.include_router(health.router)
 app.include_router(interview.router)
+app.include_router(kpi.router)
 
 
 if __name__ == "__main__":

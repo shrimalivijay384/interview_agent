@@ -5,13 +5,13 @@ import logging
 import uuid
 from typing import Optional, List, Dict, Any
 from datetime import datetime
-from app.models import (
+from ..models import (
     JobDescription, Resume, KPI, Question, Answer, QuestionAnswerPair,
     InterviewSession, InterviewStatus, FinalReport, KPIEval,
     Difficulty, QuestionType
 )
-from app.services.gemini_client import get_gemini_client
-from app.config import get_settings
+from .gemini_client import get_gemini_client
+from ..config import get_settings
 
 logger = logging.getLogger(__name__)
 

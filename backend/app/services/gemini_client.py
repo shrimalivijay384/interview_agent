@@ -5,7 +5,7 @@ import google.generativeai as genai
 from typing import Optional, List, Dict, Any
 import json
 import logging
-from app.config import get_settings
+from ..config import get_settings
 
 logger = logging.getLogger(__name__)
 

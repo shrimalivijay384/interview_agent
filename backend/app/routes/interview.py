@@ -3,15 +3,15 @@ Interview management routes.
 """
 import logging
 from fastapi import APIRouter, HTTPException
-from app.models import (
+from ..models import (
     StartInterviewRequest, StartInterviewResponse,
     SubmitAnswerRequest, SubmitAnswerResponse,
     EndInterviewRequest, EndInterviewResponse
 )
-from app.services.jd_parser import parse_jd
-from app.services.resume_parser import parse_resume
-from app.services.kpi_decider import decide_kpis
-from app.services.question_agent import (
+from ..services.jd_parser import parse_jd
+from ..services.resume_parser import parse_resume
+from ..services.kpi_decider import decide_kpis
+from ..services.question_agent import (
     start_interview, get_next_question, finalize_interview,
     get_session_store
 )

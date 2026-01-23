@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     log_level: str = "INFO"
     
     # Gemini Configuration
-    gemini_model: str = "gemini-pro"
+    gemini_model: str = "gemini-2.5-flash-lite"
     gemini_temperature: float = 0.7
     gemini_max_tokens: int = 2048
     

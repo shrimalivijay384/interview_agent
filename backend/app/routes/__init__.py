@@ -1,4 +1,4 @@
 """Interview Agent API routes."""
-from app.routes import health, interview
+from . import health, interview, kpi
 
-__all__ = ["health", "interview"]
+__all__ = ["health", "interview", "kpi"]

@@ -4,8 +4,8 @@ KPI Decider service - determines evaluation criteria based on JD and Resume.
 import logging
 import json
 from typing import List
-from app.models import JobDescription, Resume, KPI, ExperienceLevel
-from app.services.gemini_client import get_gemini_client
+from ..models import JobDescription, Resume, KPI, ExperienceLevel
+from .gemini_client import get_gemini_client
 
 logger = logging.getLogger(__name__)
 

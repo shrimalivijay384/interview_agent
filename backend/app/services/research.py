@@ -199,28 +199,20 @@ async def research_candidate(name: str, email: Optional[str] = None, github: Opt
     results = {
         "name": name,
         "linkedin": None,
-        "github": None,
-        "web_presence": []
+        "github": None
     }
-    
+
     # LinkedIn lookup
     linkedin_summary = await get_linkedin_summary(name)
     if linkedin_summary:
         results["linkedin"] = linkedin_summary
-    
+
     # GitHub lookup
     if github:
         github_summary = await get_github_summary(github)
         if github_summary:
             results["github"] = github_summary
-    
-    # General web search
-    web_results = await search_web(f"{name} software engineer developer", num_results=5)
-    results["web_presence"] = [
-        {"title": r.title, "url": r.url, "snippet": r.snippet}
-        for r in web_results
-    ]
-    
+
     logger.info(f"Candidate research completed for: {name}")
     return results
 

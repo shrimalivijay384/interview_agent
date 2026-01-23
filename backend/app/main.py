@@ -5,8 +5,8 @@ import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
-from app.config import get_settings
-from app.routes import health, interview
+from .config import get_settings
+from .routes import health, interview
 
 # Configure logging
 logging.basicConfig(
@@ -48,6 +48,14 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Import research router
+try:
+    from .routes import research
+    app.include_router(research.router)
+    logger.info("Research router loaded successfully")
+except ImportError as e:
+    logger.warning(f"Could not load research router: {e}")
 
 # Include routers
 app.include_router(health.router)

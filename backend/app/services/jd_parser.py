@@ -2,8 +2,8 @@
 Job Description parsing service using Gemini.
 """
 import logging
-from app.models import JobDescription, RequiredSkill, ExperienceLevel
-from app.services.gemini_client import get_gemini_client
+from ..models import JobDescription, RequiredSkill, ExperienceLevel
+from .gemini_client import get_gemini_client
 from typing import Dict, Any
 
 logger = logging.getLogger(__name__)

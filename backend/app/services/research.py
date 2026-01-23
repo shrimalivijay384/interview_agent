@@ -4,8 +4,8 @@ External research integration for candidate information gathering.
 import logging
 import httpx
 from typing import Optional, List
-from app.models import SearchResult
-from app.config import get_settings
+from ..models import SearchResult
+from ..config import get_settings
 
 logger = logging.getLogger(__name__)
 

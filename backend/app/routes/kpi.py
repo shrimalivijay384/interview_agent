@@ -5,8 +5,11 @@ from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 from typing import List, Optional
 import logging
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 from ..services.kpi_determiner_db import get_kpi_determiner
-from ...database import get_db_stats, list_all_jds, list_all_candidates
+from database import get_db_stats, list_all_jds, list_all_candidates
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/kpi", tags=["kpi"])

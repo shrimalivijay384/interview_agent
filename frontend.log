@@ -1,0 +1,170 @@
+nohup: ignoring input
+
+> interview-agent-frontend@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 2189 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+4:32:00 AM [vite] hmr update /src/pages/Home.tsx
+4:32:10 AM [vite] hmr update /src/pages/Home.tsx
+4:32:14 AM [vite] hmr update /src/pages/Home.tsx
+4:32:14 AM [vite] Internal server error: /home/labuser/interview_agent/interview_agent/frontend/src/pages/Home.tsx: Identifier 'uploadProgress' has already been declared. (34:9)
+
+  32 |   const [uploadProgress, setUploadProgress] = useState<string>('');
+  33 |
+> 34 |   const [uploadProgress, setUploadProgress] = useState<string>('');
+     |          ^
+  35 |
+  36 |   // Load uploaded CVs on component mount
+  37 |   useEffect(() => {
+  Plugin: vite:react-babel
+  File: /home/labuser/interview_agent/interview_agent/frontend/src/pages/Home.tsx:34:9
+  32 |    const [uploadProgress, setUploadProgress] = useState<string>('');
+  33 |  
+  34 |    const [uploadProgress, setUploadProgress] = useState<string>('');
+     |           ^
+  35 |  
+  36 |    // Load uploaded CVs on component mount
+      at constructor (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptScopeHandler.checkRedeclarationInScope (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:1619:19)
+      at TypeScriptScopeHandler.declareName (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:1585:12)
+      at TypeScriptScopeHandler.declareName (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:4880:11)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:7567:16)
+      at TypeScriptParserMixin.checkIdentifier (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:7563:12)
+      at TypeScriptParserMixin.checkLVal (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:7500:12)
+      at TypeScriptParserMixin.checkLVal (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:7540:16)
+      at TypeScriptParserMixin.parseVarId (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13402:10)
+      at TypeScriptParserMixin.parseVarId (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9742:11)
+      at TypeScriptParserMixin.parseVar (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13373:12)
+      at TypeScriptParserMixin.parseVarStatement (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13220:10)
+      at TypeScriptParserMixin.parseVarStatement (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9408:31)
+      at TypeScriptParserMixin.parseStatementContent (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12841:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12757:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12737:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13306:61)
+      at TypeScriptParserMixin.parseBlockBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13299:10)
+      at TypeScriptParserMixin.parseBlock (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13287:10)
+      at TypeScriptParserMixin.parseFunctionBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12090:24)
+      at TypeScriptParserMixin.parseArrowExpression (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12065:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11677:12)
+      at TypeScriptParserMixin.parseExprAtom (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11321:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11071:23)
+      at TypeScriptParserMixin.parseUpdate (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11056:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11036:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9827:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10889:61)
+      at TypeScriptParserMixin.parseExprOps (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10894:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10871:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10821:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9776:20)
+      at /home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10790:39
+      at TypeScriptParserMixin.allowInAnd (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12411:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10790:17)
+      at TypeScriptParserMixin.parseVar (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13374:91)
+      at TypeScriptParserMixin.parseVarStatement (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13220:10)
+      at TypeScriptParserMixin.parseVarStatement (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9408:31)
+      at TypeScriptParserMixin.parseStatementContent (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12841:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12757:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12734:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13306:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13299:10)
+      at TypeScriptParserMixin.parseProgram (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12612:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12602:25)
+      at TypeScriptParserMixin.parse (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:14478:25)
+4:32:20 AM [vite] hmr update /src/pages/Home.tsx
+4:32:20 AM [vite] Internal server error: /home/labuser/interview_agent/interview_agent/frontend/src/pages/Home.tsx: Identifier 'uploadProgress' has already been declared. (34:9)
+
+  32 |   const [uploadProgress, setUploadProgress] = useState<string>('');
+  33 |
+> 34 |   const [uploadProgress, setUploadProgress] = useState<string>('');
+     |          ^
+  35 |
+  36 |   // Load uploaded CVs on component mount
+  37 |   useEffect(() => {
+  Plugin: vite:react-babel
+  File: /home/labuser/interview_agent/interview_agent/frontend/src/pages/Home.tsx:34:9
+  32 |    const [uploadProgress, setUploadProgress] = useState<string>('');
+  33 |  
+  34 |    const [uploadProgress, setUploadProgress] = useState<string>('');
+     |           ^
+  35 |  
+  36 |    // Load uploaded CVs on component mount
+      at constructor (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptScopeHandler.checkRedeclarationInScope (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:1619:19)
+      at TypeScriptScopeHandler.declareName (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:1585:12)
+      at TypeScriptScopeHandler.declareName (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:4880:11)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:7567:16)
+      at TypeScriptParserMixin.checkIdentifier (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:7563:12)
+      at TypeScriptParserMixin.checkLVal (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:7500:12)
+      at TypeScriptParserMixin.checkLVal (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:7540:16)
+      at TypeScriptParserMixin.parseVarId (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13402:10)
+      at TypeScriptParserMixin.parseVarId (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9742:11)
+      at TypeScriptParserMixin.parseVar (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13373:12)
+      at TypeScriptParserMixin.parseVarStatement (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13220:10)
+      at TypeScriptParserMixin.parseVarStatement (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9408:31)
+      at TypeScriptParserMixin.parseStatementContent (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12841:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12757:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12737:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13306:61)
+      at TypeScriptParserMixin.parseBlockBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13299:10)
+      at TypeScriptParserMixin.parseBlock (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13287:10)
+      at TypeScriptParserMixin.parseFunctionBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12090:24)
+      at TypeScriptParserMixin.parseArrowExpression (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12065:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11677:12)
+      at TypeScriptParserMixin.parseExprAtom (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11321:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11071:23)
+      at TypeScriptParserMixin.parseUpdate (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11056:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:11036:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9827:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10889:61)
+      at TypeScriptParserMixin.parseExprOps (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10894:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10871:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10821:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9776:20)
+      at /home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10790:39
+      at TypeScriptParserMixin.allowInAnd (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12411:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:10790:17)
+      at TypeScriptParserMixin.parseVar (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13374:91)
+      at TypeScriptParserMixin.parseVarStatement (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13220:10)
+      at TypeScriptParserMixin.parseVarStatement (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9408:31)
+      at TypeScriptParserMixin.parseStatementContent (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12841:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12757:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12734:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13306:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:13299:10)
+      at TypeScriptParserMixin.parseProgram (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12612:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:12602:25)
+      at TypeScriptParserMixin.parse (/home/labuser/interview_agent/interview_agent/frontend/node_modules/@babel/parser/lib/index.js:14478:25)
+4:32:30 AM [vite] hmr update /src/pages/Home.tsx
+4:32:46 AM [vite] hmr update /src/pages/Report.tsx, /src/pages/Interview.tsx, /src/pages/Home.tsx
+4:32:49 AM [vite] hmr update /src/pages/Report.tsx, /src/pages/Interview.tsx, /src/pages/Home.tsx
+4:32:49 AM [vite] hmr update /src/pages/Home.tsx
+4:33:16 AM [vite] hmr update /src/pages/Home.tsx
+4:33:20 AM [vite] hmr update /src/pages/Home.tsx
+4:33:43 AM [vite] hmr update /src/styles/Home.css
+4:33:46 AM [vite] hmr update /src/styles/Home.css
+4:34:37 AM [vite] hmr update /src/styles/index.css
+4:34:42 AM [vite] hmr update /src/styles/index.css
+4:38:57 AM [vite] hmr update /src/pages/Report.tsx, /src/pages/Interview.tsx, /src/pages/Home.tsx
+4:38:59 AM [vite] hmr update /src/pages/Report.tsx, /src/pages/Interview.tsx, /src/pages/Home.tsx
+4:39:16 AM [vite] hmr update /src/pages/Home.tsx
+4:39:19 AM [vite] hmr update /src/pages/Home.tsx
+4:39:33 AM [vite] hmr update /src/pages/Home.tsx
+4:39:48 AM [vite] hmr update /src/pages/Home.tsx
+4:39:55 AM [vite] hmr update /src/pages/Home.tsx
+4:40:06 AM [vite] hmr update /src/pages/Home.tsx
+4:40:17 AM [vite] hmr update /src/pages/Home.tsx
+4:40:28 AM [vite] hmr update /src/styles/Home.css
+4:40:35 AM [vite] hmr update /src/pages/Home.tsx
+4:40:35 AM [vite] hmr update /src/styles/Home.css

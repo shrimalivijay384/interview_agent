@@ -1,0 +1,131 @@
+{
+  "cv_id": "cv_demo_1738065000000",
+  "filename": "sarah_johnson_resume.pdf",
+  "uploaded_at": "2026-01-27T11:00:00.000000",
+  "raw_text": "Sarah Johnson\nSenior Full Stack Developer\n\nContact:\nEmail: sarah.johnson@email.com\nPhone: +1-555-0123\nLinkedIn: https://www.linkedin.com/in/sarahjohnson\nGitHub: https://github.com/sarah-codes\nLocation: San Francisco, CA\n\nProfessional Summary:\nHighly skilled Full Stack Developer with 7+ years of experience building scalable web applications. Expert in React, Node.js, Python, and cloud technologies. Passionate about clean code, system design, and mentoring junior developers.\n\nWork Experience:\n\nSenior Full Stack Developer | Tech Innovations Inc.\nSan Francisco, CA | March 2021 - Present\n- Led development of microservices architecture serving 2M+ users\n- Reduced API response time by 60% through optimization and caching strategies\n- Mentored team of 5 junior developers, improving code quality by 40%\n- Implemented CI/CD pipeline reducing deployment time from 2 hours to 15 minutes\n- Tech Stack: React, TypeScript, Node.js, PostgreSQL, Redis, AWS (EC2, S3, Lambda)\n\nFull Stack Developer | StartupHub\nSan Francisco, CA | June 2018 - February 2021\n- Built real-time collaboration platform using WebSockets and React\n- Designed and implemented RESTful APIs handling 500K requests/day\n- Integrated third-party payment systems (Stripe, PayPal)\n- Improved test coverage from 30% to 85% using Jest and Cypress\n- Tech Stack: React, Redux, Express.js, MongoDB, Docker, AWS\n\nSoftware Engineer | Digital Solutions Corp.\nNew York, NY | July 2016 - May 2018\n- Developed customer-facing web applications using Angular and Spring Boot\n- Implemented responsive designs improving mobile user engagement by 45%\n- Collaborated with UX team to redesign admin dashboard\n- Tech Stack: Angular, Java Spring Boot, MySQL, Jenkins\n\nEducation:\n\nBachelor of Science in Computer Science\nStanford University | 2012-2016\nGPA: 3.8/4.0\n\nTechnical Skills:\n- Frontend: React, TypeScript, Redux, Next.js, Vue.js, HTML5, CSS3, Tailwind\n- Backend: Node.js, Express, Python, Django, Flask, Java Spring Boot\n- Databases: PostgreSQL, MongoDB, MySQL, Redis\n- Cloud & DevOps: AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, CI/CD, Jenkins\n- Testing: Jest, Mocha, Cypress, Pytest\n- Tools: Git, GitHub Actions, Webpack, Vite\n\nProjects:\n\n1. E-Commerce Platform (2023)\n   - Built full-featured e-commerce platform with payment integration\n   - Implemented cart management, order tracking, and admin dashboard\n   - Technologies: Next.js, Node.js, Stripe API, PostgreSQL\n   - Result: Processed $500K in transactions in first 6 months\n\n2. Real-Time Analytics Dashboard (2022)\n   - Created real-time data visualization platform for business metrics\n   - Implemented WebSocket connections for live updates\n   - Technologies: React, D3.js, Socket.io, Node.js, InfluxDB\n   - Result: Reduced reporting time from days to real-time\n\n3. Task Management SaaS (2021)\n   - Developed collaborative task management application\n   - Features: Real-time collaboration, notifications, file attachments\n   - Technologies: React, Express, MongoDB, AWS S3\n   - Result: 10K+ active users within first year\n\nCertifications:\n- AWS Certified Solutions Architect - Associate (2023)\n- MongoDB Certified Developer (2022)\n\nAchievements:\n- Featured speaker at React Conference 2023\n- Open source contributor with 2K+ GitHub stars across projects\n- Hackathon winner - Best Web Application (2022)",
+  "parsed_data": {
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1-555-0123",
+    "location": "San Francisco, CA",
+    "summary": "Highly skilled Full Stack Developer with 7+ years of experience building scalable web applications. Expert in React, Node.js, Python, and cloud technologies. Passionate about clean code, system design, and mentoring junior developers.",
+    "work_experience": [
+      {
+        "title": "Senior Full Stack Developer",
+        "company": "Tech Innovations Inc.",
+        "location": "San Francisco, CA",
+        "start_date": "March 2021",
+        "end_date": "Present",
+        "is_current": true,
+        "description": null,
+        "achievements": [
+          "Led development of microservices architecture serving 2M+ users",
+          "Reduced API response time by 60% through optimization and caching strategies",
+          "Mentored team of 5 junior developers, improving code quality by 40%",
+          "Implemented CI/CD pipeline reducing deployment time from 2 hours to 15 minutes"
+        ]
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "StartupHub",
+        "location": "San Francisco, CA",
+        "start_date": "June 2018",
+        "end_date": "February 2021",
+        "is_current": false,
+        "description": null,
+        "achievements": [
+          "Built real-time collaboration platform using WebSockets and React",
+          "Designed and implemented RESTful APIs handling 500K requests/day",
+          "Integrated third-party payment systems (Stripe, PayPal)",
+          "Improved test coverage from 30% to 85% using Jest and Cypress"
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Digital Solutions Corp.",
+        "location": "New York, NY",
+        "start_date": "July 2016",
+        "end_date": "May 2018",
+        "is_current": false,
+        "description": null,
+        "achievements": [
+          "Developed customer-facing web applications using Angular and Spring Boot",
+          "Implemented responsive designs improving mobile user engagement by 45%",
+          "Collaborated with UX team to redesign admin dashboard"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Stanford University",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "graduation_year": "2016",
+        "gpa": "3.8"
+      }
+    ],
+    "skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Next.js",
+      "Vue.js",
+      "Node.js",
+      "Express",
+      "Python",
+      "Django",
+      "Flask",
+      "Java Spring Boot",
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "projects": [
+      {
+        "name": "E-Commerce Platform",
+        "description": "Built full-featured e-commerce platform with payment integration, cart management, order tracking, and admin dashboard",
+        "technologies": [
+          "Next.js",
+          "Node.js",
+          "Stripe API",
+          "PostgreSQL"
+        ],
+        "year": "2023"
+      },
+      {
+        "name": "Real-Time Analytics Dashboard",
+        "description": "Created real-time data visualization platform for business metrics with WebSocket connections for live updates",
+        "technologies": [
+          "React",
+          "D3.js",
+          "Socket.io",
+          "Node.js",
+          "InfluxDB"
+        ],
+        "year": "2022"
+      },
+      {
+        "name": "Task Management SaaS",
+        "description": "Developed collaborative task management application with real-time collaboration, notifications, and file attachments",
+        "technologies": [
+          "React",
+          "Express",
+          "MongoDB",
+          "AWS S3"
+        ],
+        "year": "2021"
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect - Associate (2023)",
+      "MongoDB Certified Developer (2022)"
+    ],
+    "linkedin_url": "https://www.linkedin.com/in/sarahjohnson",
+    "github_username": "sarah-codes"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "cv_id": "cv_1769514227309",
+  "filename": "Kishan_AI&ML_CV.pdf",
+  "uploaded_at": "2026-01-27T11:43:47.309866",
+  "raw_text": "Kishan Kachhadiya  \n+91-9328308575   |  kishankachhadiya823@gmail.com   |  GitHub  |  linkedin.com/in/ kishan -kachhadiya / \n \nSUMMARY  \nAI/ML Engineer with expertise in machine learning, deep learning, NLP , speech processing, and MLOps , skilled in LLM fine -\ntuning, Retrieval -Augmented Generation (RAG), and FastAPI -based deployment . Proven track record in building scalable \nmultilingual AI systems, including legal bots, mathematical retrieval systems, and multimodal story -to-image generation \npipelines . Achieved 1st Rank at FIRE 2025 (CLMIR & Story -to-Image tracks)  and 3rd place at S4P 2025 Deepfake Audio \nDetection Challenge , demonstrating strong problem -solving, research, and applied AI skills. Proficient in Python, PyTorch, \nHugging Face, LangChain, MLflow, Docker, with certifications in Azure Fundamentals  and SAP Analytics Cloud . \nEXPERIENCE  \nIRLP Lab, DAIICT            Gandhinagar , India  \nJr. Computer Scientist                         Nov, 2024  – Present  \n• Trained the NLLB 3.3B model  on 22 Indian language government and health datasets , advancing multilingual NLP \nresearch and improving cross -lingual accessibility  - NLP , LLMs . \n• Enhanced text retrieval and translation accuracy  across Gujarati, English, Bengali, and Kannada by fine -tuning Bi-\nEncoder, BM25, and ColBERT models  on MS MARCO and FIRE benchmarks, achieving robust performance on large -\nscale retrieval tasks  - Finetuning LLMs . \n• Designed and implemented hierarchical embeddings  (clauses, sections,  summery ) and applied RAG techniques  to \nbuild a legal Q&A bot , enabling accurate semantic and referential query handling in complex legal documents  – RAG . \nFitshield                                         Surat , India  \nJr. Data Scientist (Freelance)                   Sep, 2024  – Nov, 2024  \n• Generated structured dish data using prompting techniques to identify ingredients and map accurate nutritional \nvalues – FastAPI, Prompt Engineering.  \n• Retrieved appropriate nutritional values based on ingredient quantities, enhancing the accuracy of dietary \ninformation.  - Python  \n• Implemented RAG with vector embeddings to enable semantic dish name search and efficient retrieval – FastAPI, \nRAG, VectorDB.  \nRootle.AI                            Ahmedabad , India  \nMachine Learning Intern                  Dec, 2023  – June, 2024  \n• Conducted in -depth EDA and visualization to improve user engagement by 3 -6% and performed Feature  \nEngineering, Classification, and Clustering Model with Hyper -parameter Tuning on data. - Python, NumPy, Pandas, \nSeaborn, Plotly, scikit -learn, Machine Learning, Deep Learning . \n• Fine -tuned Gem ma3 with PEFT (LoRA), improving accuracy from 77% to 83%. Explored advanced Deep Learning, NLP , \nLangChain, and RAG concepts – NLP , Finetuning LLMs . \n  SAP - Code Unnati Program                               Vadodara , India  \n  Data Science Trainee                                  Feb, 202 2 – Feb, 202 3 \n• Completed training on Emerging Technologies (AI, I nternet of Things ) under the Code Unnati Program,  initiative by \nSAP , implemented by Edunet Foundation . It’s a Special hands -on learning program for train us to meet the upcoming \nINDUSTRY 4.0. Under this internship, I working in capstone project 'MOODMATE' using machine learning and deep \nlearning  – AI, IOT, Python . \n \n \n \nPROJECTS  \nDiamond Price Prediction  – GitHub             \n• Built an end -to-end MLOps pipeline with MLflow for tracking, versioning, and lifecycle management. – MLflow . \n• Integrated trained regression model into a Flask app for real -time inference – Machine Learning, Regression Models . \nIntelligent News Article Extractor AI Agent  - GitHub                \n• Built a Streamlit app with Gemini 1.5, LangChain for data scraping, metadata extraction, and classification - LangChain . \n• Integrated Airtable storage and automated Zapier alerts for trade -related content – Airtable, Zapier, Streamlit . \nFire Safety Device  - GitHub                \n• Developed a smart prototype that detects fire or gas leaks, automatically cuts electricity, and activates a fire \nextinguisher or water motor – Arduino  Microcontroller , IoT sensors.  \n• Sends real -time alerts to the household and fire safety department via phone notifications – NodeMCU  \nMicrocontroller , Webhooks, IFTTT automation . \nEDUCATION  \nParul  University                                                                                GPA:  8.23   \nBachelor of Technology  in Computer Science &  Engineering                                                2020– 2024  \nKaushal Vidhya bhavan                                                                    Percentage: 76%  \n12th Science  (Maths, Physics, Chemistry)                                                                                         2019– 2020 \nSKILLS  \nTechnical : Python, SQL, MongoDB, Data Scraping, ETL, EDA, Machine Learning, Deep Learning, Natural Language Processing \n(NLP), Large Language Models (LLMs), Retrieval -Augmented Generation (RAG), MLOps, Generative AI, AI Automation . \nNLP: Named Entity Recognition (NER), Word Embeddings, Bi -Encoder, ColBERT, LoRA, QLoRA, VectorDB, Prompt Engineering . \nFrameworks & Tools : FastAPI, Flask, MLflow, DVC, GitLab, PyTorch, Hugging Face Transformers, Docker, Git/GitHub, LangChain . \nACHIEVEMENTS  \nDeepfake  Audio  Detection  Challenge  – Fake Finders  Team: Secured 3rd place (Bronze) at S4P 2025 at Dhirubhai Ambani \nUniversity, surpassing baseline F1 (0.64 to 0.67) by fine -tuning Whisper -large on DeepFox 2.0 multilingual dataset, deploying \na scalable detection pipeline  – Whisper model, Py Torch , Teamwork . \nCross lingual  Mathematical Information Retrieval  (CLMIR ) – Forum for Information Retrieval Evaluation  Conference 2025 \n(IIT BHU, Varanasi):  As part of Team Retriever , secured 1st Rank  in Cross -Lingual Mathematical Information Retrieval \n(English –Hindi) , with evaluation  scores of nDCG: 0.3264, MAP: 0.2143, P@10: 0.128 , building a system for accurate retrieval \nof mathematical content across languages  – Retrieval  model s, RAG, L LMs. \nMultilingual Story -to-Image Generation – FIRE Conference 2025 (IIT BHU, Varanasi):  As Team Retriever , achieved 1st Rank  in \nboth English  and Hindi  tracks for narrative -to-visual illustration, evaluated on Consistency, Relevance, and Visual Quality ; \ndeveloped an AI pipeline for generating culturally relevant and coherent illustrations from multilingual stories  – Text to Image \nmodels, LLMs . \nCERTIFICATIONS  \n· Microsoft Certified: Azure Fundamentals   \n· SAP Certified Application Associate - SAP Analytics Cloud   \n· IoT and It’s Application Training - Parul university",
+  "parsed_data": {
+    "name": "Kishan Kachhadiya",
+    "email": "kishankachhadiya823@gmail.com",
+    "phone": "+91-9328308575",
+    "location": null,
+    "summary": "AI/ML Engineer with expertise in machine learning, deep learning, NLP , speech processing, and MLOps , skilled in LLM fine -\ntuning, Retrieval -Augmented Generation (RAG), and FastAPI -based deployment . Proven track record in building scalable \nmultilingual AI systems, including legal bots, mathematical retrieval systems, and multimodal story -to-image generation \npipelines . Achieved 1st Rank at FIRE 2025 (CLMIR & Story -to-Image tracks)  and 3rd place at S4P 2025 Deepfake Audio \nDetection Challenge , demonstrating strong problem -solving, research, and applied AI skills. Proficient in Python, PyTorch, \nHugging Face, LangChain, MLflow, Docker, with certifications in Azure Fundamentals  and SAP Analytics Cloud .",
+    "work_experience": [
+      {
+        "title": "Jr. Computer Scientist",
+        "company": "IRLP Lab, DAIICT",
+        "location": null,
+        "start_date": "Nov, 2024",
+        "end_date": "Present",
+        "is_current": false,
+        "description": "• Trained the NLLB 3.3B model  on 22 Indian language government and health datasets , advancing multilingual NLP \nresearch and improving cross -lingual accessibility  - NLP , LLMs .\n• Enhanced text retrieval and translation accuracy  across Gujarati, English, Bengali, and Kannada by fine -tuning Bi-\nEncoder, BM25, and ColBERT models  on MS MARCO and FIRE benchmarks, achieving robust performance on large -\nscale retrieval tasks  - Finetuning LLMs .\n• Designed and implemented hierarchical embeddings  (clauses, sections,  summery ) and applied RAG techniques  to \nbuild a legal Q&A bot , enabling accurate semantic and referential query handling in complex legal documents  – RAG .",
+        "achievements": []
+      },
+      {
+        "title": "Jr. Data Scientist (Freelance)",
+        "company": "Fitshield",
+        "location": null,
+        "start_date": "Sep, 2024",
+        "end_date": "Nov, 2024",
+        "is_current": false,
+        "description": "• Generated structured dish data using prompting techniques to identify ingredients and map accurate nutritional \nvalues – FastAPI, Prompt Engineering.  \n• Retrieved appropriate nutritional values based on ingredient quantities, enhancing the accuracy of dietary \ninformation.  - Python  \n• Implemented RAG with vector embeddings to enable semantic dish name search and efficient retrieval – FastAPI, \nRAG, VectorDB.",
+        "achievements": []
+      },
+      {
+        "title": "Machine Learning Intern",
+        "company": "Rootle.AI",
+        "location": null,
+        "start_date": "Dec, 2023",
+        "end_date": "June, 2024",
+        "is_current": false,
+        "description": "• Conducted in -depth EDA and visualization to improve user engagement by 3 -6% and performed Feature  \nEngineering, Classification, and Clustering Model with Hyper -parameter Tuning on data. - Python, NumPy, Pandas, \nSeaborn, Plotly, scikit -learn, Machine Learning, Deep Learning .\n• Fine -tuned Gem ma3 with PEFT (LoRA), improving accuracy from 77% to 83%. Explored advanced Deep Learning, NLP ,\nLangChain, and RAG concepts – NLP , Finetuning LLMs .",
+        "achievements": []
+      },
+      {
+        "title": "Data Science Trainee",
+        "company": "SAP - Code Unnati Program",
+        "location": null,
+        "start_date": "Feb, 202 2",
+        "end_date": "Feb, 202 3",
+        "is_current": false,
+        "description": "• Completed training on Emerging Technologies (AI, I nternet of Things ) under the Code Unnati Program,  initiative by \nSAP , implemented by Edunet Foundation . It’s a Special hands -on learning program for train us to meet the upcoming \nINDUSTRY 4.0. Under this internship, I working in capstone project 'MOODMATE' using machine learning and deep \nlearning  – AI, IOT, Python .",
+        "achievements": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "Parul  University",
+        "degree": "Bachelor of Technology",
+        "field_of_study": "Computer Science &  Engineering",
+        "graduation_year": null,
+        "gpa": "8.23"
+      },
+      {
+        "institution": "Kaushal Vidhya bhavan",
+        "degree": "12th Science",
+        "field_of_study": "Maths, Physics, Chemistry",
+        "graduation_year": null,
+        "gpa": null
+      }
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "MongoDB",
+      "Data Scraping",
+      "ETL",
+      "EDA",
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing (NLP)",
+      "Large Language Models (LLMs)",
+      "Retrieval -Augmented Generation (RAG)",
+      "MLOps",
+      "Generative AI",
+      "AI Automation",
+      "Named Entity Recognition (NER)",
+      "Word Embeddings",
+      "Bi -Encoder",
+      "ColBERT",
+      "LoRA",
+      "QLoRA",
+      "VectorDB",
+      "Prompt Engineering",
+      "FastAPI",
+      "Flask",
+      "MLflow",
+      "DVC",
+      "GitLab",
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Docker",
+      "Git/GitHub",
+      "LangChain"
+    ],
+    "projects": [
+      {
+        "name": "Diamond Price Prediction",
+        "description": "Built an end -to-end MLOps pipeline with MLflow for tracking, versioning, and lifecycle management. – MLflow .\n• Integrated trained regression model into a Flask app for real -time inference – Machine Learning, Regression Models .",
+        "technologies": [
+          "MLflow",
+          "Machine Learning",
+          "Regression Models"
+        ],
+        "url": null,
+        "achievements": []
+      },
+      {
+        "name": "Intelligent News Article Extractor AI Agent",
+        "description": "Built a Streamlit app with Gemini 1.5, LangChain for data scraping, metadata extraction, and classification - LangChain .\n• Integrated Airtable storage and automated Zapier alerts for trade -related content – Airtable, Zapier, Streamlit .",
+        "technologies": [
+          "LangChain",
+          "Airtable",
+          "Zapier",
+          "Streamlit"
+        ],
+        "url": null,
+        "achievements": []
+      },
+      {
+        "name": "Fire Safety Device",
+        "description": "Developed a smart prototype that detects fire or gas leaks, automatically cuts electricity, and activates a fire \nextinguisher or water motor – Arduino  Microcontroller , IoT sensors.  \n• Sends real -time alerts to the household and fire safety department via phone notifications – NodeMCU  \nMicrocontroller , Webhooks, IFTTT automation .",
+        "technologies": [
+          "Arduino  Microcontroller",
+          "IoT sensors",
+          "NodeMCU  Microcontroller",
+          "Webhooks",
+          "IFTTT automation"
+        ],
+        "url": null,
+        "achievements": []
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Fundamentals",
+      "SAP Certified Application Associate - SAP Analytics Cloud",
+      "IoT and It’s Application Training - Parul university"
+    ],
+    "languages": []
+  }
+}

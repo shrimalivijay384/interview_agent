@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 from app.config import get_settings
-from app.routes import health, interview, kpi
+from app.routes import health, interview, kpi, cv_upload, rag  # langgraph_interview disabled for now
 
 # Configure logging
 logging.basicConfig(
@@ -63,6 +63,9 @@ except ImportError as e:
 app.include_router(health.router)
 app.include_router(interview.router)
 app.include_router(kpi.router)
+app.include_router(cv_upload.router)
+app.include_router(rag.router)
+# app.include_router(langgraph_interview.router)  # Disabled - needs checkpoint fix
 
 
 if __name__ == "__main__":

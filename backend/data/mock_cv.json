@@ -1,0 +1,86 @@
+{
+  "personal_info": {
+    "name": "John Anderson",
+    "email": "john.anderson@email.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "linkedin": "linkedin.com/in/johnanderson",
+    "github": "github.com/johnanderson"
+  },
+  "summary": "Senior Full Stack Developer with 7+ years of experience building scalable web applications. Expert in React, Node.js, and cloud technologies. Passionate about clean code and mentoring junior developers.",
+  "experience": [
+    {
+      "company": "StartupXYZ",
+      "position": "Senior Full Stack Developer",
+      "location": "San Francisco, CA",
+      "start_date": "2021-03",
+      "end_date": "Present",
+      "duration": "3 years",
+      "responsibilities": [
+        "Led development of customer-facing web application using React and Node.js, serving 50K+ users",
+        "Designed and implemented RESTful APIs and microservices architecture",
+        "Reduced application load time by 40% through performance optimization",
+        "Mentored team of 3 junior developers",
+        "Implemented CI/CD pipeline using GitHub Actions and Docker"
+      ]
+    },
+    {
+      "company": "TechSolutions Inc",
+      "position": "Full Stack Developer",
+      "location": "Oakland, CA",
+      "start_date": "2018-06",
+      "end_date": "2021-02",
+      "duration": "2 years 8 months",
+      "responsibilities": [
+        "Developed e-commerce platform using React, Express.js, and PostgreSQL",
+        "Integrated payment gateway (Stripe) and third-party APIs",
+        "Wrote unit and integration tests achieving 85% code coverage",
+        "Collaborated with UX team to implement responsive designs"
+      ]
+    },
+    {
+      "company": "WebDev Agency",
+      "position": "Junior Web Developer",
+      "location": "San Jose, CA",
+      "start_date": "2016-08",
+      "end_date": "2018-05",
+      "duration": "1 year 9 months",
+      "responsibilities": [
+        "Built client websites using HTML, CSS, JavaScript, and jQuery",
+        "Maintained and updated existing web applications",
+        "Participated in daily standups and sprint planning"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "graduation_year": "2016",
+      "gpa": "3.7/4.0"
+    }
+  ],
+  "skills": {
+    "programming_languages": ["JavaScript", "TypeScript", "Python", "SQL"],
+    "frontend": ["React.js", "Next.js", "HTML5", "CSS3", "Tailwind CSS"],
+    "backend": ["Node.js", "Express.js", "FastAPI", "RESTful APIs", "GraphQL"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
+    "cloud_devops": ["AWS (EC2, S3, Lambda)", "Docker", "Kubernetes", "CI/CD", "GitHub Actions"],
+    "tools": ["Git", "Jest", "Pytest", "Postman", "Jira"]
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Developer - Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2022-09"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open Source Contribution - React Testing Library",
+      "description": "Contributed bug fixes and documentation improvements",
+      "technologies": ["React", "TypeScript", "Jest"]
+    }
+  ]
+}

@@ -3,8 +3,11 @@ KPI Determiner service - Determines KPIs based on JD and CV from database using 
 """
 import logging
 import json
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 from typing import Optional, Dict, List, Any
-from ...database import get_jd_by_id, get_candidate_by_id
+from database import get_jd_by_id, get_candidate_by_id
 from .gemini_client import GeminiClient
 from ..models import KPI, ExperienceLevel
 

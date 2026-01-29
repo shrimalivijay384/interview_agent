@@ -1,0 +1,131 @@
+{
+  "cv_id": "cv_demo_1738065100000",
+  "filename": "michael_chen_resume.pdf",
+  "uploaded_at": "2026-01-27T11:05:00.000000",
+  "raw_text": "Michael Chen\nDevOps Engineer\n\nContact Information:\nEmail: michael.chen@techmail.com\nPhone: +1-555-0456\nLinkedIn: https://www.linkedin.com/in/michaelchen-devops\nGitHub: https://github.com/mchen-devops\nLocation: Seattle, WA\n\nProfessional Summary:\nExperienced DevOps Engineer with 5+ years specializing in cloud infrastructure, automation, and CI/CD pipelines. Expert in AWS, Kubernetes, Terraform, and monitoring solutions. Strong focus on reliability, scalability, and security.\n\nWork Experience:\n\nSenior DevOps Engineer | CloudScale Technologies\nSeattle, WA | January 2022 - Present\n- Architected and deployed Kubernetes clusters serving 100+ microservices\n- Reduced infrastructure costs by 35% through AWS resource optimization\n- Implemented infrastructure as code using Terraform managing 500+ resources\n- Built comprehensive monitoring and alerting system using Prometheus and Grafana\n- Achieved 99.99% uptime for critical production services\n- Automated deployment processes reducing release time by 70%\n- Tech Stack: AWS (EKS, EC2, RDS, S3), Kubernetes, Docker, Terraform, Jenkins, ArgoCD\n\nDevOps Engineer | DataFlow Systems\nSeattle, WA | March 2020 - December 2021\n- Migrated legacy monolith to containerized microservices architecture\n- Designed and implemented CI/CD pipelines using GitLab CI and Jenkins\n- Managed AWS infrastructure for applications handling 1M+ daily users\n- Implemented security scanning in deployment pipeline (SAST, DAST, container scanning)\n- Reduced deployment failures by 60% through automated testing and rollback mechanisms\n- Tech Stack: AWS (EC2, ECS, Lambda), Docker, GitLab CI, Ansible, Python\n\nJunior DevOps Engineer | TechStart Inc.\nSan Francisco, CA | June 2018 - February 2020\n- Automated infrastructure provisioning using Ansible and CloudFormation\n- Set up monitoring and logging solutions using ELK stack\n- Managed Linux servers and implemented backup and disaster recovery procedures\n- Created documentation for deployment processes and runbooks\n- Tech Stack: AWS, Linux, Bash, Python, Ansible, CloudFormation\n\nEducation:\n\nBachelor of Science in Computer Engineering\nUniversity of Washington | 2014-2018\nGPA: 3.7/4.0\n\nTechnical Skills:\n- Cloud Platforms: AWS (EC2, EKS, ECS, Lambda, RDS, S3, CloudFormation), GCP, Azure\n- Container Orchestration: Kubernetes, Docker, Docker Swarm, ECS\n- Infrastructure as Code: Terraform, CloudFormation, Ansible\n- CI/CD: Jenkins, GitLab CI, GitHub Actions, ArgoCD, CircleCI\n- Monitoring & Logging: Prometheus, Grafana, ELK Stack, Datadog, CloudWatch\n- Scripting: Bash, Python, PowerShell\n- Version Control: Git, GitHub, GitLab\n- Security: HashiCorp Vault, AWS IAM, Security Groups, Network Policies\n\nKey Projects:\n\n1. Multi-Region Kubernetes Platform (2023)\n   - Designed and deployed multi-region Kubernetes infrastructure\n   - Implemented disaster recovery with automatic failover\n   - Technologies: AWS EKS, Terraform, ArgoCD, Prometheus\n   - Result: Achieved 99.99% uptime across all regions\n\n2. Automated CI/CD Pipeline (2022)\n   - Built end-to-end automated deployment pipeline for 50+ microservices\n   - Integrated security scanning, automated testing, and progressive delivery\n   - Technologies: Jenkins, GitLab CI, SonarQube, Trivy, Kubernetes\n   - Result: Reduced deployment time from 4 hours to 20 minutes\n\n3. Infrastructure Cost Optimization (2023)\n   - Analyzed and optimized AWS infrastructure spending\n   - Implemented auto-scaling, reserved instances, and right-sizing\n   - Technologies: AWS Cost Explorer, Terraform, CloudWatch\n   - Result: Saved $120K annually in infrastructure costs\n\n4. Observability Platform (2022)\n   - Implemented comprehensive monitoring, logging, and tracing solution\n   - Set up alerting and on-call rotation system\n   - Technologies: Prometheus, Grafana, Loki, Jaeger, PagerDuty\n   - Result: Reduced mean time to detection (MTTD) by 75%\n\nCertifications:\n- AWS Certified Solutions Architect - Professional (2024)\n- Certified Kubernetes Administrator (CKA) (2023)\n- AWS Certified DevOps Engineer - Professional (2022)\n- HashiCorp Certified: Terraform Associate (2022)\n\nAchievements:\n- Led incident response team, reducing MTTR from 2 hours to 30 minutes\n- Published technical blog posts on DevOps best practices (10K+ reads)\n- Contributed to open-source Kubernetes operators\n- Mentored 3 junior engineers in DevOps practices",
+  "parsed_data": {
+    "name": "Michael Chen",
+    "email": "michael.chen@techmail.com",
+    "phone": "+1-555-0456",
+    "location": "Seattle, WA",
+    "summary": "Experienced DevOps Engineer with 5+ years specializing in cloud infrastructure, automation, and CI/CD pipelines. Expert in AWS, Kubernetes, Terraform, and monitoring solutions. Strong focus on reliability, scalability, and security.",
+    "work_experience": [
+      {
+        "title": "Senior DevOps Engineer",
+        "company": "CloudScale Technologies",
+        "location": "Seattle, WA",
+        "start_date": "January 2022",
+        "end_date": "Present",
+        "is_current": true,
+        "description": null,
+        "achievements": [
+          "Architected and deployed Kubernetes clusters serving 100+ microservices",
+          "Reduced infrastructure costs by 35% through AWS resource optimization",
+          "Implemented infrastructure as code using Terraform managing 500+ resources",
+          "Built comprehensive monitoring and alerting system using Prometheus and Grafana",
+          "Achieved 99.99% uptime for critical production services",
+          "Automated deployment processes reducing release time by 70%"
+        ]
+      },
+      {
+        "title": "DevOps Engineer",
+        "company": "DataFlow Systems",
+        "location": "Seattle, WA",
+        "start_date": "March 2020",
+        "end_date": "December 2021",
+        "is_current": false,
+        "description": null,
+        "achievements": [
+          "Migrated legacy monolith to containerized microservices architecture",
+          "Designed and implemented CI/CD pipelines using GitLab CI and Jenkins",
+          "Managed AWS infrastructure for applications handling 1M+ daily users",
+          "Implemented security scanning in deployment pipeline",
+          "Reduced deployment failures by 60% through automated testing"
+        ]
+      },
+      {
+        "title": "Junior DevOps Engineer",
+        "company": "TechStart Inc.",
+        "location": "San Francisco, CA",
+        "start_date": "June 2018",
+        "end_date": "February 2020",
+        "is_current": false,
+        "description": null,
+        "achievements": [
+          "Automated infrastructure provisioning using Ansible and CloudFormation",
+          "Set up monitoring and logging solutions using ELK stack",
+          "Managed Linux servers and implemented backup procedures",
+          "Created documentation for deployment processes"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Washington",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Engineering",
+        "graduation_year": "2018",
+        "gpa": "3.7"
+      }
+    ],
+    "skills": [
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Jenkins",
+      "GitLab CI",
+      "Ansible",
+      "Prometheus",
+      "Grafana",
+      "ELK Stack",
+      "Python",
+      "Bash",
+      "CloudFormation",
+      "ArgoCD",
+      "Linux"
+    ],
+    "projects": [
+      {
+        "name": "Multi-Region Kubernetes Platform",
+        "description": "Designed and deployed multi-region Kubernetes infrastructure with disaster recovery and automatic failover",
+        "technologies": [
+          "AWS EKS",
+          "Terraform",
+          "ArgoCD",
+          "Prometheus"
+        ],
+        "year": "2023"
+      },
+      {
+        "name": "Automated CI/CD Pipeline",
+        "description": "Built end-to-end automated deployment pipeline for 50+ microservices with security scanning and testing",
+        "technologies": [
+          "Jenkins",
+          "GitLab CI",
+          "SonarQube",
+          "Kubernetes"
+        ],
+        "year": "2022"
+      },
+      {
+        "name": "Infrastructure Cost Optimization",
+        "description": "Analyzed and optimized AWS infrastructure spending with auto-scaling and right-sizing",
+        "technologies": [
+          "AWS Cost Explorer",
+          "Terraform",
+          "CloudWatch"
+        ],
+        "year": "2023"
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect - Professional (2024)",
+      "Certified Kubernetes Administrator (CKA) (2023)",
+      "AWS Certified DevOps Engineer - Professional (2022)",
+      "HashiCorp Certified: Terraform Associate (2022)"
+    ],
+    "linkedin_url": "https://www.linkedin.com/in/michaelchen-devops",
+    "github_username": "mchen-devops"
+  }
+}

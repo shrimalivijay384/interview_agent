@@ -1,0 +1,164 @@
+{
+  "cv_id": "cv_1769519666870",
+  "filename": "Ashokkumar_Shrimali_India_New.pdf",
+  "uploaded_at": "2026-01-27T13:14:26.870596",
+  "raw_text": "Ashokkumar  Shrimali  \n40 K patelvas,  Gamtal Pase, 385001  Virpur,  Palanpur, Gujarat.  \n+91 7359731529  | shrimaliashokkumar673@gmail.com  \nLinkedIn:  https://www.linkedin.com/in/ashokkumar -shrimali -ab726091/  \n \nProfessional  Summary  \nResults -driven  Big Data  and Business  Analytics  Master's  graduate  with strong  foundations  in data scien ce, statistics,  and \nthe energy sector. Proficient in data analysis, visualization, and cloud data platforms including Databricks and  Azure. \nDemonstrated ability to implement machine learning models, automate data workflows, and support business insights. \nStrong communicator with a proactive mindset, well -versed in tools such as Python, SQL, REST APIs, and Power BI.  \n \nWork  Experience  \nData  Engineer  | TÜNKERS  Maschinenbau  GmbH  — Ford-Werke  | Köln,  Germany  | 08/2024  - 04/2025  \n- Leveraged  Python  scripting  to assist  in AGV  control  checks,  error  reporting,  and log data extraction  for performance \nanalysis.  \n- Monitored  AGV  movements,  ensuring  smooth  process  execution  and resolving  navigation  and automation  issues.  \n \nRisk Analyst  | RWE  Supply  and Trading  GmbH  | Essen,  Germany  | 08/2023  - 02/2024  \n- Performed  data analysis  using  Python,  SQL,  and Azure  Databricks  to optimize  decision -making  by 15%.  \n- Extracted  and normalized  product  data from emails  and Excel  using  automation  with REST  APIs.  \n- Designed  and monitored  Databricks  workflows,  enhancing  processing  efficiency  by 20%.  \n- Developed  dashboards  and prototypes  improving  user interaction  and engagement  on Databricks.  \n \nHealthcare  Data  Analyst  | Dios Life Sciences  Pvt Ltd | India  | 03/2018 - 08/2021  \n- Developed  ETL pipelines  in Azure  Data  Factory  for healthcare data.  \n- Reduced  data delivery  time by 30% through  optimized  data flow. \n- Created  Power  BI dashboards  enabling  faster  decision -making  for sales.  \n \nBusiness  Executive  | Intas  Pharmaceutical  Ltd | India  | 06/2014  - 02/2018  \n- Achieved  a 25% sales  increase  through  strategic  communication  and client  engagement.  \n- Represented  the company  in 20+ industry  events,  growing  network  reach  and partnerships.  \n \nData  Executive  | Nikhar  Surgical  Hospital  | India  | 09/2011  - 05/2014  \n- Improved  operational  efficiency  by 20% through  pharmacy  data system  enhancements.  \n- Boosted  patient  service  outcomes  via data analysis  and cross -functional  collaboration.  \n \nEducation  \nM.Sc.  in Big Data  & Business  Analytics  \nFOM  University  of Applied  Sciences,  Essen,  Germany  | 09/2021  - 02/2024  \n \nBachelor  of Pharmacy  \nIndukaka  Ipcowala  College  of Pharmacy,  India  | 08/2006  - 04/2011  \n \nProjects  \n- Sentiment  Analysis  of Movie  Reviews:  Compared  TextBlob,  Vader,  and AutoML;  selected  best-performing  model.  \n- Myocardial  Infarction  Prediction:  Applied  ML algorithms  to predict  heart  attacks  with improved  accuracy.  \n- Crypto  Asset  Forecasting:  Finalist  at Refinitiv  Hackathon  2022;  improved  forecast  accuracy  by 20%.  \n- Skin Tone  Analysis  System:  Patented  AI-based  system;  reduced  product  return  rates  by 60%.  \n\nTechnical  Skills  \nProgramming:  Python,  SQL,  R, C++,  C#, PySpark,  Spark SQL \nCloud  Platforms:  Azure  (ADF,  Data  Lake,  Delta  Lake,  Databricks),  AWS,  GCP,  Redshift,  S3, Lambda,  EC2 \nDevOps Tools: Docker, Kubernetes, Jenkins, Terraform, Ansible, GitHub, CI/CD Pipelines  \nData  Tools:  Power  BI, Tableau,  Jupyter  Notebooks,  REST  APIs \nOS & Office: Linux, Windows, MS Office, Mac OS \nMethodologies: Agile, Scrum  \n \nCertifications  \n- Oracle  Machine  Learning  using  Autonomous  Database  2023  Certified  Associate  \n- Certified  in Azure  Databricks  & Data  Engineering  \n- Master  Python  with 100 Projects  in 100 Days  \n- DevOps  for Absolute  Beginners  \n \nLanguages  \nEnglish  (C1),  German  (A2),  Hindi  (Native),  Gujarati  (Native)  \n \nInterests  \nCricket,  Reading,  Singing",
+  "parsed_data": {
+    "name": "Ashokkumar Shrimali",
+    "email": "shrimaliashokkumar673@gmail.com",
+    "phone": "+91 7359731529",
+    "location": null,
+    "summary": "Results -driven Big Data and Business Analytics Master's graduate with strong foundations in data scien ce, statistics, and\nthe energy sector. Proficient in data analysis, visualization, and cloud data platforms including Databricks and Azure.\nDemonstrated ability to implement machine learning models, automate data workflows, and support business insights.\nStrong communicator with a proactive mindset, well -versed in tools such as Python, SQL, REST APIs, and Power BI.",
+    "work_experience": [
+      {
+        "title": "Data Engineer",
+        "company": "TÜNKERS Maschinenbau GmbH — Ford-Werke",
+        "location": null,
+        "start_date": "08/2024",
+        "end_date": "04/2025",
+        "is_current": false,
+        "description": "- Leveraged Python scripting to assist in AGV control checks, error reporting, and log data extraction for performance\nanalysis.\n- Monitored AGV movements, ensuring smooth process execution and resolving navigation and automation issues.",
+        "achievements": []
+      },
+      {
+        "title": "Risk Analyst",
+        "company": "RWE Supply and Trading GmbH",
+        "location": null,
+        "start_date": "08/2023",
+        "end_date": "02/2024",
+        "is_current": false,
+        "description": "- Performed data analysis using Python, SQL, and Azure Databricks to optimize decision -making by 15%.\n- Extracted and normalized product data from emails and Excel using automation with REST APIs.\n- Designed and monitored Databricks workflows, enhancing processing efficiency by 20%.\n- Developed dashboards and prototypes improving user interaction and engagement on Databricks.",
+        "achievements": []
+      },
+      {
+        "title": "Healthcare Data Analyst",
+        "company": "Dios Life Sciences Pvt Ltd",
+        "location": null,
+        "start_date": "03/2018",
+        "end_date": "08/2021",
+        "is_current": false,
+        "description": "- Developed ETL pipelines in Azure Data Factory for healthcare data.\n- Reduced data delivery time by 30% through optimized data flow.\n- Created Power BI dashboards enabling faster decision -making for sales.",
+        "achievements": []
+      },
+      {
+        "title": "Business Executive",
+        "company": "Intas Pharmaceutical Ltd",
+        "location": null,
+        "start_date": "06/2014",
+        "end_date": "02/2018",
+        "is_current": false,
+        "description": "- Achieved a 25% sales increase through strategic communication and client engagement.\n- Represented the company in 20+ industry events, growing network reach and partnerships.",
+        "achievements": []
+      },
+      {
+        "title": "Data Executive",
+        "company": "Nikhar Surgical Hospital",
+        "location": null,
+        "start_date": "09/2011",
+        "end_date": "05/2014",
+        "is_current": false,
+        "description": "- Improved operational efficiency by 20% through pharmacy data system enhancements.\n- Boosted patient service outcomes via data analysis and cross -functional collaboration.",
+        "achievements": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "FOM University of Applied Sciences, Essen, Germany",
+        "degree": "M.Sc.",
+        "field_of_study": "Big Data & Business Analytics",
+        "graduation_year": null,
+        "gpa": null
+      },
+      {
+        "institution": "Indukaka Ipcowala College of Pharmacy, India",
+        "degree": "Bachelor of Pharmacy",
+        "field_of_study": null,
+        "graduation_year": null,
+        "gpa": null
+      }
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "R",
+      "C++",
+      "C#",
+      "PySpark",
+      "Spark SQL",
+      "Azure (ADF, Data Lake, Delta Lake, Databricks)",
+      "AWS",
+      "GCP",
+      "Redshift",
+      "S3",
+      "Lambda",
+      "EC2",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Terraform",
+      "Ansible",
+      "GitHub",
+      "CI/CD Pipelines",
+      "Power BI",
+      "Tableau",
+      "Jupyter Notebooks",
+      "REST APIs",
+      "Linux",
+      "Windows",
+      "MS Office",
+      "Mac OS",
+      "Agile",
+      "Scrum"
+    ],
+    "projects": [
+      {
+        "name": "Sentiment Analysis of Movie Reviews",
+        "description": "Compared TextBlob, Vader, and AutoML; selected best-performing model.",
+        "technologies": [
+          "TextBlob",
+          "Vader",
+          "AutoML"
+        ],
+        "url": null,
+        "achievements": []
+      },
+      {
+        "name": "Myocardial Infarction Prediction",
+        "description": "Applied ML algorithms to predict heart attacks with improved accuracy.",
+        "technologies": [
+          "ML"
+        ],
+        "url": null,
+        "achievements": []
+      },
+      {
+        "name": "Crypto Asset Forecasting",
+        "description": "Finalist at Refinitiv Hackathon 2022; improved forecast accuracy by 20%.",
+        "technologies": [],
+        "url": null,
+        "achievements": []
+      },
+      {
+        "name": "Skin Tone Analysis System",
+        "description": "Patented AI-based system; reduced product return rates by 60%.",
+        "technologies": [
+          "AI"
+        ],
+        "url": null,
+        "achievements": []
+      }
+    ],
+    "certifications": [
+      "Oracle Machine Learning using Autonomous Database 2023 Certified Associate",
+      "Certified in Azure Databricks & Data Engineering",
+      "Master Python with 100 Projects in 100 Days",
+      "DevOps for Absolute Beginners"
+    ],
+    "languages": [
+      "English",
+      "German",
+      "Hindi",
+      "Gujarati"
+    ]
+  }
+}

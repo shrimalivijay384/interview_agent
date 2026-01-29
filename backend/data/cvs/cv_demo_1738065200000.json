@@ -1,0 +1,140 @@
+{
+  "cv_id": "cv_demo_1738065200000",
+  "filename": "priya_patel_resume.pdf",
+  "uploaded_at": "2026-01-27T11:10:00.000000",
+  "raw_text": "Priya Patel\nData Scientist | Machine Learning Engineer\n\nContact:\nEmail: priya.patel@dataml.com\nPhone: +1-555-0789\nLinkedIn: https://www.linkedin.com/in/priyapatel-ml\nGitHub: https://github.com/priya-ml\nLocation: Austin, TX\n\nProfessional Summary:\nData Scientist with 4+ years of experience building machine learning models and data pipelines. Expertise in Python, TensorFlow, PyTorch, and cloud-based ML platforms. Passionate about turning data into actionable insights and deploying production-grade ML systems.\n\nWork Experience:\n\nSenior Data Scientist | AI Innovations Labs\nAustin, TX | July 2022 - Present\n- Developed recommendation system increasing user engagement by 45%\n- Built NLP models for sentiment analysis processing 1M+ reviews daily\n- Implemented MLOps pipeline for automated model training and deployment\n- Designed A/B testing framework for model evaluation\n- Reduced model inference time by 60% through optimization and quantization\n- Tech Stack: Python, TensorFlow, PyTorch, Scikit-learn, AWS SageMaker, MLflow\n\nData Scientist | FinTech Solutions\nAustin, TX | August 2020 - June 2022\n- Created fraud detection model with 98% accuracy reducing fraud losses by $2M annually\n- Built credit risk assessment models using ensemble methods\n- Developed time series forecasting models for financial predictions\n- Implemented feature engineering pipeline processing 100GB+ data daily\n- Collaborated with engineering team to deploy models in production\n- Tech Stack: Python, XGBoost, LightGBM, Pandas, Spark, PostgreSQL, Docker\n\nJunior Data Analyst | Data Insights Corp.\nNew York, NY | June 2019 - July 2020\n- Performed exploratory data analysis on customer behavior data\n- Created dashboards and visualizations using Tableau and Power BI\n- Built predictive models for customer churn\n- Automated reporting processes using Python scripts\n- Tech Stack: Python, SQL, Tableau, Excel, Jupyter\n\nEducation:\n\nMaster of Science in Data Science\nUniversity of Texas at Austin | 2017-2019\nGPA: 3.9/4.0\nThesis: \"Deep Learning Approaches for Natural Language Understanding\"\n\nBachelor of Science in Mathematics\nMIT | 2013-2017\nGPA: 3.8/4.0\n\nTechnical Skills:\n- Programming: Python, R, SQL, Scala\n- ML Frameworks: TensorFlow, PyTorch, Scikit-learn, XGBoost, LightGBM\n- Data Processing: Pandas, NumPy, Spark, Dask\n- Cloud & MLOps: AWS (SageMaker, Lambda, S3), GCP, MLflow, Kubeflow, DVC\n- Databases: PostgreSQL, MySQL, MongoDB, Redis\n- Visualization: Matplotlib, Seaborn, Plotly, Tableau, Power BI\n- Tools: Jupyter, Git, Docker, Airflow\n- Specializations: NLP, Computer Vision, Time Series, Recommender Systems\n\nKey Projects:\n\n1. Customer Recommendation Engine (2023)\n   - Built personalized recommendation system using collaborative filtering\n   - Implemented deep learning models (Neural Collaborative Filtering)\n   - Technologies: PyTorch, AWS SageMaker, Redis, FastAPI\n   - Result: Increased customer engagement by 45% and revenue by $3M\n\n2. Real-Time Fraud Detection System (2021)\n   - Developed ensemble model combining gradient boosting and neural networks\n   - Implemented real-time scoring API with sub-100ms latency\n   - Technologies: XGBoost, TensorFlow, Flask, Redis, PostgreSQL\n   - Result: Detected 98% of fraudulent transactions, saved $2M annually\n\n3. NLP Sentiment Analysis Platform (2023)\n   - Created multi-language sentiment analysis using transformer models\n   - Processed customer reviews, social media, and support tickets\n   - Technologies: BERT, Hugging Face Transformers, AWS Lambda, DynamoDB\n   - Result: Automated sentiment tracking for 1M+ texts daily\n\n4. Predictive Maintenance System (2022)\n   - Built time series forecasting model for equipment failure prediction\n   - Implemented anomaly detection using autoencoders\n   - Technologies: LSTM, Prophet, Pandas, Airflow, PostgreSQL\n   - Result: Reduced equipment downtime by 40%\n\nPublications & Presentations:\n- \"Deep Learning for Financial Fraud Detection\" - IEEE Conference 2022\n- \"Scaling ML Systems in Production\" - MLOps Summit 2023\n- Published 5 technical blog posts on Medium (50K+ views)\n\nCertifications:\n- AWS Certified Machine Learning - Specialty (2023)\n- TensorFlow Developer Certificate (2022)\n- Google Cloud Professional ML Engineer (2023)\n\nAchievements:\n- Kaggle Competition: Top 5% in Credit Risk Modeling Challenge\n- Patent pending: \"Novel Approach to Real-Time Fraud Detection\"\n- Mentored 2 junior data scientists\n- Open source contributor to Scikit-learn and Pandas",
+  "parsed_data": {
+    "name": "Priya Patel",
+    "email": "priya.patel@dataml.com",
+    "phone": "+1-555-0789",
+    "location": "Austin, TX",
+    "summary": "Data Scientist with 4+ years of experience building machine learning models and data pipelines. Expertise in Python, TensorFlow, PyTorch, and cloud-based ML platforms. Passionate about turning data into actionable insights and deploying production-grade ML systems.",
+    "work_experience": [
+      {
+        "title": "Senior Data Scientist",
+        "company": "AI Innovations Labs",
+        "location": "Austin, TX",
+        "start_date": "July 2022",
+        "end_date": "Present",
+        "is_current": true,
+        "description": null,
+        "achievements": [
+          "Developed recommendation system increasing user engagement by 45%",
+          "Built NLP models for sentiment analysis processing 1M+ reviews daily",
+          "Implemented MLOps pipeline for automated model training and deployment",
+          "Designed A/B testing framework for model evaluation",
+          "Reduced model inference time by 60% through optimization"
+        ]
+      },
+      {
+        "title": "Data Scientist",
+        "company": "FinTech Solutions",
+        "location": "Austin, TX",
+        "start_date": "August 2020",
+        "end_date": "June 2022",
+        "is_current": false,
+        "description": null,
+        "achievements": [
+          "Created fraud detection model with 98% accuracy reducing fraud losses by $2M annually",
+          "Built credit risk assessment models using ensemble methods",
+          "Developed time series forecasting models for financial predictions",
+          "Implemented feature engineering pipeline processing 100GB+ data daily",
+          "Collaborated with engineering team to deploy models in production"
+        ]
+      },
+      {
+        "title": "Junior Data Analyst",
+        "company": "Data Insights Corp.",
+        "location": "New York, NY",
+        "start_date": "June 2019",
+        "end_date": "July 2020",
+        "is_current": false,
+        "description": null,
+        "achievements": [
+          "Performed exploratory data analysis on customer behavior data",
+          "Created dashboards and visualizations using Tableau and Power BI",
+          "Built predictive models for customer churn",
+          "Automated reporting processes using Python scripts"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Texas at Austin",
+        "degree": "Master of Science",
+        "field_of_study": "Data Science",
+        "graduation_year": "2019",
+        "gpa": "3.9"
+      },
+      {
+        "institution": "MIT",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Mathematics",
+        "graduation_year": "2017",
+        "gpa": "3.8"
+      }
+    ],
+    "skills": [
+      "Python",
+      "R",
+      "SQL",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "XGBoost",
+      "Pandas",
+      "NumPy",
+      "Spark",
+      "AWS SageMaker",
+      "MLflow",
+      "PostgreSQL",
+      "Docker",
+      "Machine Learning",
+      "NLP",
+      "Deep Learning"
+    ],
+    "projects": [
+      {
+        "name": "Customer Recommendation Engine",
+        "description": "Built personalized recommendation system using collaborative filtering and deep learning models",
+        "technologies": [
+          "PyTorch",
+          "AWS SageMaker",
+          "Redis",
+          "FastAPI"
+        ],
+        "year": "2023"
+      },
+      {
+        "name": "Real-Time Fraud Detection System",
+        "description": "Developed ensemble model combining gradient boosting and neural networks with real-time scoring API",
+        "technologies": [
+          "XGBoost",
+          "TensorFlow",
+          "Flask",
+          "Redis",
+          "PostgreSQL"
+        ],
+        "year": "2021"
+      },
+      {
+        "name": "NLP Sentiment Analysis Platform",
+        "description": "Created multi-language sentiment analysis using transformer models for customer reviews and social media",
+        "technologies": [
+          "BERT",
+          "Hugging Face Transformers",
+          "AWS Lambda",
+          "DynamoDB"
+        ],
+        "year": "2023"
+      }
+    ],
+    "certifications": [
+      "AWS Certified Machine Learning - Specialty (2023)",
+      "TensorFlow Developer Certificate (2022)",
+      "Google Cloud Professional ML Engineer (2023)"
+    ],
+    "linkedin_url": "https://www.linkedin.com/in/priyapatel-ml",
+    "github_username": "priya-ml"
+  }
+}

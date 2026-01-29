@@ -1,0 +1,11 @@
+{
+  "raw_text": "John Doe\nSoftware Engineer\n\nContact:\nEmail: john.doe@example.com\nPhone: +1-555-0199\nLinkedIn: https://www.linkedin.com/in/johndoe\nGitHub: https://github.com/johndoe\n\nProfessional Summary:\nExperienced Software Engineer with 5+ years in full-stack development.\nProficient in Python, JavaScript, React, and Node.js.\n\nWork Experience:\n\nSenior Developer | Tech Corp\nJanuary 2021 - Present\n- Led development of microservices architecture\n- Improved system performance by 40%\n- Mentored junior developers\n\nSoftware Developer | StartupXYZ\nJune 2018 - December 2020\n- Built RESTful APIs using Python and Flask\n- Implemented CI/CD pipelines\n- Worked with PostgreSQL and MongoDB\n\nEducation:\n\nBachelor of Science in Computer Science\nMIT | 2014-2018\nGPA: 3.7/4.0\n\nTechnical Skills:\n- Programming: Python, JavaScript, Java, Go\n- Frontend: React, Vue.js, HTML5, CSS3\n- Backend: Node.js, Django, Flask, Express\n- Databases: PostgreSQL, MongoDB, Redis\n- DevOps: Docker, Kubernetes, AWS, Jenkins",
+  "name": "John Doe",
+  "email": "Email: john.doe@example.com",
+  "phone": "+1-555-0199",
+  "summary": "",
+  "work_experience": [],
+  "education": [],
+  "skills": [],
+  "parsed_at": "2026-01-28T04:31:37.022189"
+}

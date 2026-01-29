@@ -1,0 +1,33 @@
+{
+  "job_title": "Senior Full Stack Developer",
+  "company": "TechCorp Inc.",
+  "location": "San Francisco, CA (Hybrid)",
+  "job_type": "Full-time",
+  "experience_required": "5+ years",
+  "description": "We are seeking an experienced Full Stack Developer to join our engineering team. You will be responsible for designing, developing, and maintaining scalable web applications.",
+  "responsibilities": [
+    "Design and develop full-stack web applications using React and Node.js",
+    "Build RESTful APIs and microservices",
+    "Collaborate with product managers and designers",
+    "Write clean, maintainable, and well-tested code",
+    "Participate in code reviews and mentor junior developers",
+    "Optimize application performance and scalability"
+  ],
+  "required_skills": [
+    "JavaScript/TypeScript",
+    "React.js",
+    "Node.js",
+    "SQL and NoSQL databases",
+    "RESTful API design",
+    "Git version control"
+  ],
+  "preferred_skills": [
+    "AWS or Azure cloud platforms",
+    "Docker and Kubernetes",
+    "GraphQL",
+    "CI/CD pipelines",
+    "Agile methodologies"
+  ],
+  "education": "Bachelor's degree in Computer Science or equivalent experience",
+  "salary_range": "$120,000 - $180,000"
+}

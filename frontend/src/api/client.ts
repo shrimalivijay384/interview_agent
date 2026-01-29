@@ -80,6 +80,60 @@ class ApiClient {
     const response = await this.client.get('/health');
     return response.data;
   }
+
+  /**
+   * List all uploaded CVs
+   */
+  async listUploadedCVs(): Promise<any> {
+    const response = await this.client.get('/api/cv/list');
+    return response.data;
+  }
+
+  /**
+   * Get CV by ID
+   */
+  async getCVById(cvId: string): Promise<any> {
+    const response = await this.client.get(`/api/cv/${cvId}`);
+    return response.data;
+  }
+
+  /**
+   * Upload CV file
+   */
+  async uploadCVFile(file: File): Promise<any> {
+    const formData = new FormData();
+    formData.append('file', file);
+
+    const response = await this.client.post('/api/cv/upload', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    });
+    return response.data;
+  }
+
+  /**
+   * Upload CV as text
+   */
+  async uploadCVText(cvText: string): Promise<any> {
+    const formData = new FormData();
+    formData.append('cv_text', cvText);
+
+    const response = await this.client.post('/api/cv/upload', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    });
+    return response.data;
+  }
+
+  /**
+   * Generate JD based on CV
+   */
+  async generateJDForCV(cvId: string): Promise<any> {
+    const response = await this.client.post(`/api/cv/${cvId}/generate-jd`);
+    return response.data;
+  }
 }
 
 // Export singleton instance
